@@ -1,6 +1,108 @@
+* {
+  margin: 0;
+}
+.title {
+  background-color: grey;
+  width: 100em;
+  height: 100em;
+}
 h1 {
-
+  background-color: hsla(215, 83%, 30%, 0.847);
+  border-radius: 120px;
+  width: 800px;
+  justify-content: center;
+  position: relative;
+  left: 7.5em;
+  top: 10px;
+  display: flex;
+}
+.profile {
+  background-color: hsla(215, 83%, 30%, 0.847);
+  height: 300px;
+  width: 230px;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  z-index: 1;
+  margin: 25px 20px 12px 12px;
+  top:8px;
+  left: 5px;
 }
 a {
   text-decoration: none;
+}
+img {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+h2 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+.localization {
+  background-color: hsla(215, 83%, 30%, 0.847);
+  height: 160px;
+  width: 230px;
+  text-align: center;
+  border-radius: 110px;
+  position: absolute;
+  top:318px;
+  left: 8px;
+  margin: 25px 10px 25px 8px;
+  z-index: 1;
+}
+.tecnologia {
+  background-color: hsla(215, 83%, 30%, 0.847);
+  height: 210px;
+  width: 230px;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top:489px;
+  left: 8px;
+  margin: 25px 10px 25px 8px;
+  z-index: 2;
+}
+h3 {
+  margin-top: 10px;
+}
+.tecnology1 {
+  background: gray;
+  border-radius: 30px;
+  height: 20px;
+  width: 70px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology2 {
+  background: gray;
+  border-radius: 30px;
+  height: 20px;
+  width: 70px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology3 {
+  background: gray;
+  border-radius: 30px;
+  height: 20px;
+  width: 105px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology4 {
+  background: gray;
+  border-radius: 30px;
+  height: 20px;
+  width: 105px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology5 {
+  background: gray;
+  border-radius: 30px;
+  height: 20px;
+  width: 70px; 
+  align-items: center;
+  margin-bottom: 7px;
 }
