@@ -1,30 +1,40 @@
 * {
   margin: 0;
 }
+:root {
+  --color-back: hsl(200, 88%, 16%);
+  --color-elements: hsl(210, 54%, 11%, 0.633);
+  --color-font:hsl(106, 79%, 38%);
+  --color-tecnology:hsl(14, 82%, 31%);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-font);
+}
 .title {
-  background-color: grey;
-  width: 100em;
-  height: 100em;
+  background-color: hsl(200, 88%, 16%);
+  position:relative;
+  z-index: -1;
+  width: 95rem;
+  height: 100rem;
 }
 h1 {
-  background-color: hsla(215, 83%, 30%, 0.847);
-  border-radius: 120px;
-  width: 800px;
+  background-color: var(--color-elements);
+  border-radius: 12rem;
+  width: 1250px;
   justify-content: center;
   position: relative;
-  left: 7.5em;
-  top: 10px;
+  left: 8em;
+  top: 20px;
   display: flex;
 }
 .profile {
-  background-color: hsla(215, 83%, 30%, 0.847);
+  background-color:var(--color-elements);
   height: 300px;
   width: 230px;
   text-align: center;
   border-radius: 30px;
   position: absolute;
   z-index: 1;
-  margin: 25px 20px 12px 12px;
+  margin: 10px 20px 12px 12px;
   top:8px;
   left: 5px;
 }
@@ -40,25 +50,25 @@ h2 {
   margin-bottom: 4px;
 }
 .localization {
-  background-color: hsla(215, 83%, 30%, 0.847);
+  background-color: var(--color-elements);
   height: 160px;
   width: 230px;
   text-align: center;
-  border-radius: 110px;
+  border-radius: 120px;
   position: absolute;
-  top:318px;
+  top:310px;
   left: 8px;
   margin: 25px 10px 25px 8px;
   z-index: 1;
 }
 .tecnologia {
-  background-color: hsla(215, 83%, 30%, 0.847);
+  background-color: var(--color-elements);
   height: 210px;
   width: 230px;
   text-align: center;
   border-radius: 30px;
   position: absolute;
-  top:489px;
+  top:485px;
   left: 8px;
   margin: 25px 10px 25px 8px;
   z-index: 2;
@@ -66,8 +76,19 @@ h2 {
 h3 {
   margin-top: 10px;
 }
+ul {
+  justify-content: center;
+
+}
+li {
+  list-style-type: none;
+  align-content: center;
+  position: relative;
+  left: 30px;
+
+}
 .tecnology1 {
-  background: gray;
+  background-color:var(--color-tecnology);
   border-radius: 30px;
   height: 20px;
   width: 70px; 
@@ -75,7 +96,7 @@ h3 {
   margin-bottom: 7px;
 }
 .tecnology2 {
-  background: gray;
+  background: var(--color-tecnology);
   border-radius: 30px;
   height: 20px;
   width: 70px; 
@@ -83,7 +104,7 @@ h3 {
   margin-bottom: 7px;
 }
 .tecnology3 {
-  background: gray;
+  background: var(--color-tecnology);
   border-radius: 30px;
   height: 20px;
   width: 105px; 
@@ -91,7 +112,7 @@ h3 {
   margin-bottom: 7px;
 }
 .tecnology4 {
-  background: gray;
+  background: var(--color-tecnology);
   border-radius: 30px;
   height: 20px;
   width: 105px; 
@@ -99,10 +120,35 @@ h3 {
   margin-bottom: 7px;
 }
 .tecnology5 {
-  background: gray;
-  border-radius: 30px;
+  background-color: var(--color-tecnology);
+  border-radius: 3rem;
   height: 20px;
   width: 70px; 
   align-items: center;
   margin-bottom: 7px;
+}
+.works {
+  background-color: var(--color-elements);
+  height: 350px;
+  width: 1250px;
+  border-radius: 2.5rem;
+  position:absolute;
+  left: 258px;
+  top: 4.5rem;
+  z-index: 1;
+}
+h2 {
+  text-align: center;
+}
+.repositorio {
+  display: flex;
+  position: relative;
+  left: 1.5rem;
+  top: 0.1rem;
+}
+.repositorio2 {
+  display: flex;
+  position: relative;
+  left: 1.5rem;
+  top: 0.4rem;
 }
