@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+}
+:root {
+  --color-back: hsl(200, 88%, 16%);
+  --color-elements: hsl(210, 54%, 11%, 0.633);
+  --color-font:hsl(106, 79%, 38%);
+  --color-tecnology:hsl(14, 82%, 31%);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-font);
+}
+.title {
+  background-color: hsl(200, 88%, 16%);
+  position:relative;
+  z-index: -1;
+  width: 95rem;
+  height: 100rem;
+}
+h1 {
+  background-color: var(--color-elements);
+  border-radius: 2.8rem;
+  width: 1250px;
+  justify-content: center;
+  position: relative;
+  left: 8em;
+  top: 20px;
+  display: flex;
+}
+.profile {
+  background-color:var(--color-elements);
+  height: 300px;
+  width: 230px;
+  text-align: center;
+  border-radius: 2.8rem;
+  position: absolute;
+  z-index: 1;
+  margin: 10px 20px 12px 12px;
+  top:8px;
+  left: 5px;
+}
+a {
+  text-decoration: none;
+  text-align-last: auto;
+  color:hsla(245, 10%, 79%, 0.715);
+}
+img {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+h2 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+.localization {
+  background-color: var(--color-elements);
+  height: 160px;
+  width: 230px;
+  text-align: center;
+  border-radius: 3rem;
+  position: absolute;
+  top:310px;
+  left: 8px;
+  margin: 25px 10px 25px 8px;
+  z-index: 1;
+}
+.tecnologia {
+  background-color: var(--color-elements);
+  height: 210px;
+  width: 230px;
+  text-align: center;
+  border-radius: 3rem;
+  position: absolute;
+  top:488px;
+  left: 8px;
+  margin: 25px 10px 25px 8px;
+  z-index: 2;
+}
+h3 {
+  margin-top: 10px;
+}
+ul {
+  justify-content: center;
+
+}
+li {
+  list-style-type: none;
+  align-content: center;
+  position: relative;
+  left: 30px;
+
+}
+.tecnology1 {
+  background-color:var(--color-tecnology);
+  border-radius: 30px;
+  height: 20px;
+  width: 70px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology2 {
+  background: var(--color-tecnology);
+  border-radius: 30px;
+  height: 20px;
+  width: 70px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology3 {
+  background: var(--color-tecnology);
+  border-radius: 30px;
+  height: 20px;
+  width: 105px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology4 {
+  background: var(--color-tecnology);
+  border-radius: 30px;
+  height: 20px;
+  width: 105px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.tecnology5 {
+  background-color: var(--color-tecnology);
+  border-radius: 3rem;
+  height: 20px;
+  width: 70px; 
+  align-items: center;
+  margin-bottom: 7px;
+}
+.works {
+  background-color: var(--color-elements);
+  height: 350px;
+  width: 1250px;
+  border-radius: 3rem;
+  position:absolute;
+  left: 258px;
+  top: 4.7rem;
+  z-index: 1;
+}
+h2 {
+  text-align: center;
+}
+.repositorio {
+  display: flex;
+  position: relative;
+  left: 1.5rem;
+  top: 0.1rem;
+}
+.repositorio2 {
+  display: flex;
+  position: relative;
+  left: 1.5rem;
+  top: 0.4rem;
+}
